@@ -10,7 +10,7 @@ export const usuarios = [
     {
         id: 2,
         userName: "Daniel02",
-        nombre: "Daniel Rosales Analis",
+        nombre: "Daniel Rosales Ananis",
         rol: "user",
         contrasenia: "daniel1234"
     },

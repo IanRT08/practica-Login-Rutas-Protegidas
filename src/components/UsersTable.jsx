@@ -16,10 +16,10 @@ export default function UsersTable({ users }) {
 
         <tbody>
           {users.map((u) => (
-            <tr key={u.username}>
-              <td>{u.username}</td>
-              <td>{u.fullName}</td>
-              <td className={`role ${u.role}`}>{u.role}</td>
+            <tr key={u.userName}>
+              <td>{u.userName}</td>
+              <td>{u.nombre}</td>
+              <td className={`role ${u.rol}`}>{u.rol}</td>
             </tr>
           ))}
         </tbody>
